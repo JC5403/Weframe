@@ -1,9 +1,47 @@
-body{ margin: 0;}
-    .container{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      background: url(chorizo.jpg);
-      height: 100vh;
-    }
-    .left { background-color: brown;}
-    .right { background-color: darkgray;}
+body {
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  height: 100vh;
+}
+.left {
+  background-color: brown;
+}
+.right {
+  background-color: darkgray;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: auto;
+  margin-top: 14px;
+  resize: none;
+  display: block;
+}
+img.center {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-left: 250;
+  margin-right: 250;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.perro {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 14px;
+  resize: none;
+  display: block;
+}
