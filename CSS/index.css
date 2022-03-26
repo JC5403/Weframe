@@ -9,8 +9,8 @@ body{ margin: 0;}
 .right { background-color: #FDF2DC;}
 
 img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
 }
 .imagenUsuario{
     height: 200px;
