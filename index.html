@@ -3,18 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <title>Formulario</title>
+    <style> 
+    body{ margin: 0;}
+    .container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: url(chorizo.jpg);
+      height: 100vh;
+    }
+    .left { background-color: brown;}
+    .right {}
 
+    </style>
   </head>
 
   <body>
     <form action="#" method="POST">
-      <div class="division">
-        <div class="imagen" margin="0px" padding="0px">
-          <img src= "https://png.pngtree.com/png-vector/20190710/ourlarge/pngtree-user-vector-avatar-png-image_1541962.jpg" class="img-thumbnail"/>
-       </div>
+      <div class="container">
+        <div class="left">
+          left
+
+        </div>
+        <div class="right">
+          right
+
+        </div>
 
       </div>
-
+      
     </form>
   </body>
 </html>
