@@ -37,3 +37,12 @@ textarea {
     resize: none;
     display: block;
   }
+
+.botones {
+    margin-left: auto;
+  margin-right: auto;
+    margin: auto;
+    margin-top: 14px;
+    resize: none;
+    display: block;
+}
