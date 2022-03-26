@@ -4,8 +4,15 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+.left {
+  background-color: brown;
+}
+.right {
+  background-color: darkgray;
+}
 
-<<<<<<< HEAD
 img{
     max-width: 80%;
     max-height: 80%;
@@ -17,15 +24,6 @@ img{
     margin-top: 14px;
     resize: none;
     display:flex;
-}
-=======
-  height: 100vh;
-}
-.left {
-  background-color: brown;
-}
-.right {
-  background-color: darkgray;
 }
 
 textarea {
@@ -39,13 +37,3 @@ textarea {
   resize: none;
   display: block;
 }
-img.center {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin-left: 250;
-  margin-right: 250;
-}
-
-
->>>>>>> 8cea895729341c4b460a89be606c10112ca3a0b5
