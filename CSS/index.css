@@ -4,8 +4,14 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
-<<<<<<< HEAD
+  height: 100vh;
+}
+.left {
+  background-color: brown;
+}
+.right {
+  background-color: darkgray;
+}
 img{
     max-width: 80%;
     max-height: 80%;
@@ -18,34 +24,15 @@ img{
     resize: none;
     display:flex;
 }
-=======
-  height: 100vh;
-}
-.left {
-  background-color: brown;
-}
-.right {
-  background-color: darkgray;
-}
 
 textarea {
-  width: 80%;
-  height: 100px;
-  border: 1px solid #f6f6f6;
-  border-radius: 3px;
-  background-color: #f6f6f6;
-  margin: auto;
-  margin-top: 14px;
-  resize: none;
-  display: block;
-}
-img.center {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin-left: 250;
-  margin-right: 250;
-}
-
-
->>>>>>> 8cea895729341c4b460a89be606c10112ca3a0b5
+    width: 80%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: auto;
+    margin-top: 14px;
+    resize: none;
+    display: block;
+  }
