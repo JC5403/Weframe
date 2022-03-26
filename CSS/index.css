@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
 }
@@ -44,4 +45,23 @@ img {
   margin-top: 14px;
   resize: none;
   display: block;
+=======
+body{ margin: 0;}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+.left { background-color: #E8170D;}
+.right { background-color: #FDF2DC;}
+
+#imagenUsuario{
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    margin: 13px 13px 13px 13px;
+    padding: 15px;
+>>>>>>> ba0367b31b45303ed858a516ff8f494e21b9d7ee
 }
