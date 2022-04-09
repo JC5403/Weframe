@@ -50,3 +50,11 @@ textarea {
     margin-top: 14px;
 }
 
+.Acerca {
+  height: 200px;
+  width:200px;
+  margin: auto;
+  margin-top: 14px;
+  resize: none;
+  display:flex;
+}
